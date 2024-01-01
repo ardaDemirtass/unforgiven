@@ -81,7 +81,7 @@ public:
 	}
 	void changeWeight(vector<Layer> newLayers)
 	{
-		double rate = 1e-1;
+		double rate = 1e0;
 		for (size_t l = 0; l < this->numberOfLayers; l++)
 		{
 			Layer& currentLayer = this->layers[l];
